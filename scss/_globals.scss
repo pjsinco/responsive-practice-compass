@@ -6,6 +6,23 @@
   background: goldenrod;
 }
 
+#page {
+  position: relative;
+
+}
+
+.searchform {
+  position: absolute;     
+  bottom: 0;
+  right: 0;
+
+  @media #{$small-only} {
+    position: static;
+    margin-top: .8rem;
+  }
+}
+
+
 /*.site-title {*/
   /*@include replace-text('../images/red-flag-cut.png');*/
 /*}*/
