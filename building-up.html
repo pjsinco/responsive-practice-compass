@@ -1,4 +1,3 @@
-<!-- start header.php -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,32 +9,111 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <div id='page' class='row hfeed site'>
-      <header class='site-header columns 12-small' role='banner'>
-        <!--<img class="columns small-12 medium-7 large-7" src='images/red-flag-cut.png' data-interchange="[images/red-flag-cut.png, (default)]">-->
-        <!--<div class="searchform medium-4 medium-offset-1 large-3 large-offset-2 columns ">-->
-          <!--<form>-->
-            <!--<div class="row collapse">-->
-              <!--<div class="small-9 columns">-->
-                <!--<input type="text" placeholder='Search'>-->
-              <!--</div>-->
-              <!--<div class="small-3 columns">-->
-                <!--<a href='#' class='button postfix'>Go</a>-->
-              <!--</div>-->
-            <!--</div> [> /.row <] -->
-          <!--</form>-->
-        <!--</div> [> /.searchform <]-->
-
-        <nav id='site-navigation' class='row main-navigation' role='navigation'>
-          <ul class='columns large-8'>
-            <li>Lorem ipsum dolor sit amet</li>
-            <li>Ipsum dolor sit amet</li>
-          </ul>
-
-          <div class='columns large-4 date'>June 1, 2014</div>
-        </nav>
-
+    <div id='page' class='hfeed site'>
+      <header class='site-header' role='banner'>
+        <div class="row">
+          <img class="columns small-12 medium-7 large-7" src='images/red-flag-cut.png' data-interchange="[images/red-flag-cut.png, (default)]">
+          <div class="searchform medium-4 medium-offset-1 large-3 large-offset-2 columns ">
+            <form>
+              <div class="row collapse">
+                <div class="small-9 columns">
+                  <input type="text" placeholder='Search'>
+                </div>
+                <div class="small-3 columns">
+                  <a href='#' class='button postfix'>Go</a>
+                </div>
+              </div>  <!-- /.row  -->
+            </form>
+          </div>  <!-- /.searchform -->
+        </div>
       </header>
+
+      <div id='content' class='site-content' role='main'>
+        <main id='main' class='row site-main' role='main'>
+
+          <div class="large-9 medium-12 columns">
+            <div class="row show-for-medium-up">
+              <div class="columns medium-12 ">
+                <img src="images/ad-leaderboard.jpg" alt=" ">
+                <hr>
+              </div>
+            </div>
+
+            <article class="row">
+              <header class="entry-header columns small-12 medium-8 large-9" >
+                <nav class='breadcrumbs'>
+                  <a href='#'>The DO</a> | <a href='#'>Briefly</a> | 
+                  <a id='current_cat' href='#'>News</a>
+                </nav>
+
+                <h1 class="entry-title">
+                  A.T. Still joins Harry Truman, Walt Disney in Hall of Famous Missourians
+                </h1>
+
+                <!--<div class="panel clearfix">-->
+                    <!--<a class="button left">Float left</a>-->
+                    <!--<a class="button right">Float Right</a>-->
+                    <!--<a class="button right">Float Right</a>-->
+                <!--</div>-->
+
+                <div class="entry-meta">
+                  <ul class="inline-list">
+                    <li class="left">Posted May 7, 2:29 p.m.</li>
+                    <li class='comments right'><a href='#'>0 comments</a></li>
+                    <li class='print right visible-for-large-up'><a href='#'>Print</a></li>
+                    <li class='share right'><a href='#'>Share</a></li>
+                    <?php //thedo_posted_on(); ?>
+                  </ul>
+                </div>
+                
+              </header>
+              <aside class="large-3 columns hide-for-medium hide-for-small">
+                <aside id="thedo_most_read_widget-3" class="widget widget_thedo_most_read_widget" style='background: gold'>
+                  <h3 class="widgettitle subheader">Most Read</h3>
+                  <ol>
+                    <li>
+                      <a href="?p=142811"title="Young blood: What's it like to become a physician at age 22?">Young blood: What's it like to become a physician at age 22?</a>
+                    </li>
+                    <li>
+                      <a href="?p=88571"title="Anesthesiology&rsquo;s allure: High pay, flexibility, intellectual stimulation">Anesthesiology&rsquo;s allure: High pay, flexibility, intellectual stimulation</a>
+                    </li>
+                    <li>
+                      <a href="?p=143091"title="Older medical students persist, leverage life experience to achieve dreams">Older medical students persist, leverage life experience to achieve dreams</a>
+                    </li>
+                    <li>
+                      <a href="?p=86631"title="Is the world ready for tattooed, pierced physicians?">Is the world ready for tattooed, pierced physicians?</a>
+                    </li>
+                    <li><a href="?p=82751"title="Match report sheds light on credentials needed to secure residencies">Match report sheds light on credentials needed to secure residencies</a>
+                    </li>
+                  </ol>
+                </aside><!-- end .widget -->
+                
+              </aside>
+              
+            </article>
+              
+          </div>
+
+          <aside class="show-for-medium-up offset-large-1 large-2 medium-4 columns" style='background: gold'>
+            <div class='ads-skyscraper line '>
+              <img src="http://placehold.it/160x600">
+              <img src="http://placehold.it/160x600">
+              <img src="http://placehold.it/160x600">
+            </div> <!-- end .ads-skyscraper -->
+          </aside>
+        </main>
+      </div>
+
+
+      <!--<nav id='site-navigation' class='row callout panel main-navigation' role='navigation'>-->
+        <!--<ul class='columns large-8'>-->
+          <!--<li>Lorem ipsum dolor sit amet</li>-->
+          <!--<li>Ipsum dolor sit amet</li>-->
+        <!--</ul>-->
+
+        <!--<div class='columns large-4 date'>June 1, 2014</div>-->
+      <!--</nav>-->
+
     </div><!-- end #page -->
   </body>
 </html>

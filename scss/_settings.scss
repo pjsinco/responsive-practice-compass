@@ -8,6 +8,8 @@
 
 // This is the default html and body font-size for the base rem value.
 // $rem-base: 16px;
+$base-font-size: 14px;
+$rem-base: $base-font-size;
 
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "foundation/functions";
@@ -47,7 +49,8 @@
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
 $body-font-color: #282828;
-$body-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+/*$body-font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;*/
+$body-font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
 
 
 // We use this to control font-smoothing
@@ -144,6 +147,7 @@ $xlarge-range: (90.063em, 9999999999em); // 1441px and up
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
 // $header-text-rendering: optimizeLegibility;
+$header-font-weight: bold;
 
 // We use these to control header font sizes
 // $h1-font-size: rem-calc(44);
@@ -152,6 +156,9 @@ $xlarge-range: (90.063em, 9999999999em); // 1441px and up
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);
 // $h6-font-size: 1rem;
+$h1-font-size: rem-calc(28);
+$h2-font-size: rem-calc(24);
+$h3-font-size: rem-calc(14);
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;

@@ -1,12 +1,12 @@
-#content {
-  background: #f06d06;
+#main {
+  background: aliceblue;
 }
 
 .test {
-  background: goldenrod;
+  background: darkorange;
 }
 
-#page {
+header {
   position: relative;
 
 }
@@ -22,6 +22,11 @@
   }
 }
 
+.ads-skyscraper {
+  /*img {*/
+    /*max-width: 100%; */
+  /*}*/
+}
 
 /*.site-title {*/
   /*@include replace-text('../images/red-flag-cut.png');*/
