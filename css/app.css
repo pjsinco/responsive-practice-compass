@@ -8820,44 +8820,56 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 3, ../scss/_globals.scss */
+/* line 2, ../scss/_globals.scss */
 #page {
   border-left: 1px dashed #cccccc;
   border-right: 1px dashed #cccccc;
 }
 
-/* line 8, ../scss/_globals.scss */
+/* line 7, ../scss/_globals.scss */
 .test {
-  background: aliceblue;
+  background: magenta;
 }
 
-/* line 12, ../scss/_globals.scss */
+/* line 11, ../scss/_globals.scss */
 header {
   position: relative;
 }
 
-/* line 17, ../scss/_globals.scss */
+/* line 16, ../scss/_globals.scss */
+figure.title-image {
+  margin: 0;
+}
+/* line 19, ../scss/_globals.scss */
+figure.title-image figcaption.title-image-cap {
+  color: #65554a;
+  font-size: 0.85714rem;
+  line-height: 1.14286rem;
+  margin-top: 0.28571rem;
+}
+
+/* line 28, ../scss/_globals.scss */
 .searchform {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 @media only screen and (max-width: 30em) {
-  /* line 17, ../scss/_globals.scss */
+  /* line 28, ../scss/_globals.scss */
   .searchform {
     position: static;
     margin-top: .8rem;
   }
 }
 
-/* line 28, ../scss/_globals.scss */
+/* line 39, ../scss/_globals.scss */
 .ads-skyscraper {
   /*img {*/
   /*max-width: 100%; */
   /*}*/
 }
 
-/* line 35, ../scss/_globals.scss */
+/* line 46, ../scss/_globals.scss */
 .date p {
   float: right;
   color: #990000;

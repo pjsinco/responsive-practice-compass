@@ -1,4 +1,3 @@
-$light-gray: #ccc;
 
 #page {
   border-left: 1px dashed $light-gray; 
@@ -6,12 +5,24 @@ $light-gray: #ccc;
 }
 
 .test {
-  background: aliceblue;
+  background: $test;
 }
 
 header {
   position: relative;
 
+}
+
+figure.title-image {
+  margin: 0;
+  
+  & figcaption.title-image-cap {
+    color: $secondary-color;
+    font-size: rem-calc(12px);
+    line-height: rem-calc(16px);
+    margin-top: rem-calc(4px);
+
+  }
 }
 
 .searchform {
