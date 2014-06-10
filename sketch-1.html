@@ -3,12 +3,14 @@
   <head>
     <meta http-equiv='content-type' content='text/html; charset=utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Building up</title>
+    <title>Sketch 1</title>
     <link rel='stylesheet' href='css/app.css'>
     <link rel='icon' href='images/the-do-favicon.ico' title='The DO' type='image/x-icon' />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
-  <body>
+<!--   <body> -->
+  <body data-grid-framework="f4" data-grid-color="black" data-grid-opacity="0.1" data-grid-zindex="10" data-grid-gutterwidth="30px" data-grid-nbcols="16">
+
     <div id='page' class='row hfeed site ' >
       <div class="columns large-12">
         <header class='row site-header ' role='banner' style='background-color: steelblue'>
@@ -28,19 +30,108 @@
           </div>  <!-- /.searchform -->
         </header>
         <div class='row main-navigation' style='background: gold'>
-          <ul class="columns medium-9 inline-list">
-            <li><a href='#'>Patient Care</a></li>
-            <li><a href='#'>Your Practice</a></li>
-            <li><a href='#'>In Training</a></li>
-            <li><a href='#'>Opinion</a></li>
-            <li><a href='#'>Briefly</a></li>
-          </ul>
-          <div class="date columns medium-3">
-            <span>June 1, 2014</span>
+          <div class="columns medium-9">
+            <ul class="inline-list">
+              <li><a href='#'>Patient Care</a></li>
+              <li><a href='#'>Your Practice</a></li>
+              <li><a href='#'>In Training</a></li>
+              <li><a href='#'>Opinion</a></li>
+              <li><a href='#'>Briefly</a></li>
+            </ul>
           </div>
-        </div>
-      </div>
+          <div class="date columns medium-3">
+            <p>June 1, 2014</p>
+          </div>
+        </div> <!-- end .row .main-navigation -->
+
+        <div id='content' class="site-content">
+          <main class="row site-main">
+            <div class="columns large-10">
+              <div class="row ad-leaderboard">
+                <div class="columns large-12">
+                  <img src="http://placehold.it/728x90/f5f5f5/000000" alt="leaderboard ad" />
+                </div> <!-- end .large-12 -->
+              </div> <!-- end .ad-leaderboard -->
+
+              <div class="row">
+                <div class="columns large-10">
+                  <article id="post-the_ID" class="post_class">
+                    <header class='entry-header'>
+                      <nav>
+                        <ul class="breadcrumbs">
+                          <li><a href="#">The DO</a></li>
+                          <li><a href="#">In Training</a></li>
+                          <li><a href="#">OMS Spotlight</a></li>
+                        </ul>
+                      </nav>
+                      <h1 class="entry-title">
+                        A.T. Still joins Harry Truman, Walt Disney in Hall of Famous Missourians
+                      </h1>
+                      <div class="entry-meta">
+                        <ul class="inline-list">
+                          <li class="left">Posted May 7, 2:29 p.m.</li>
+                          <li class='comments right'><a href='#'>0 comments</a></li>
+                          <li class='print right visible-for-large-up'><a href='#'>Print</a></li>
+                          <li class='share right'><a href='#'>Share</a></li>
+                        </ul>
+                      </div>
+          
+                      
+                    </header>
+                    
+                  </article>        
+                </div> <!-- end .large-10 -->
+
+                <div class="columns large-2">
+                  <aside class="" style='background: gold'>
+                    <aside id="thedo_most_read_widget-3" class="widget widget_thedo_most_read_widget" >
+                      <h3 class="widgettitle subheader">Most Read</h3>
+                      <ol>
+                        <li>
+                          <a href="?p=142811"title="Young blood: What's it like to become a physician at age 22?">Young blood: What's it like to become a physician at age 22?</a>
+                        </li>
+                        <li>
+                          <a href="?p=88571"title="Anesthesiology&rsquo;s allure: High pay, flexibility, intellectual stimulation">Anesthesiology&rsquo;s allure: High pay, flexibility, intellectual stimulation</a>
+                        </li>
+                        <li>
+                          <a href="?p=143091"title="Older medical students persist, leverage life experience to achieve dreams">Older medical students persist, leverage life experience to achieve dreams</a>
+                        </li>
+                        <li>
+                          <a href="?p=86631"title="Is the world ready for tattooed, pierced physicians?">Is the world ready for tattooed, pierced physicians?</a>
+                        </li>
+                        <li><a href="?p=82751"title="Match report sheds light on credentials needed to secure residencies">Match report sheds light on credentials needed to secure residencies</a>
+                        </li>
+                      </ol>
+                    </aside><!-- end .widget -->
+                    
+                  </aside>
+                  
+                </div> <!-- end .large-2 -->
+
+              </div> <!-- end .row -->
+
+            </div> <!-- end .large-10 -->
+
+
+
+
+            <div class="columns large-2 ads-skyscraper">
+              <img src="http://placehold.it/160x600/f5f5f5/000000" alt='ad-skyscraper'>
+              <img src="http://placehold.it/160x600" alt='ad-skyscraper'>
+              <img src="http://placehold.it/160x600/f5f5f5/000000" alt='ad-skyscraper'>
+            </div> <!-- end .ads-skyscraper -->
+              
+            </div>
+          </main>
+        </div><!-- end .site-content -->
+
+      </div> <!-- end .columns .large-12 -->
+
+      
+
+
+
+
     </div> <!-- end #page -->
-    <?php wp_footer(); ?>
   </body>
 </html>

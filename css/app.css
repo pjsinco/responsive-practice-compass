@@ -8022,7 +8022,7 @@ header {
 }
 
 /* line 32, ../scss/_globals.scss */
-.date span {
+.date p {
   float: right;
   color: #990000;
 }
