@@ -28,6 +28,12 @@ header {
   /*}*/
 }
 
+.date {
+  span {
+    float: right;
+    color: $primary-color;
+  }
+}
 /*.site-title {*/
   /*@include replace-text('../images/red-flag-cut.png');*/
 /*}*/

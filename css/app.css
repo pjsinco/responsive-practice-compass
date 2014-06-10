@@ -8021,6 +8021,12 @@ header {
   /*}*/
 }
 
+/* line 32, ../scss/_globals.scss */
+.date span {
+  float: right;
+  color: #990000;
+}
+
 /*.site-title {*/
 /*@include replace-text('../images/red-flag-cut.png');*/
 /*}*/
