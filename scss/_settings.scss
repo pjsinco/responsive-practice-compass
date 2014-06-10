@@ -87,6 +87,7 @@ $info-color: #4568C0;
 // $shiny-edge-active-color: rgba(#000, .2);
 
 // $column-gutter: rem-calc(30);
+$column-gutter: rem-calc(26);
 
 // Media Query Ranges
 // $small-range: (0em, 40em);
@@ -199,6 +200,7 @@ $h3-font-size: rem-calc(14);
 // $hr-border-style: solid;
 // $hr-border-color: #ddd;
 // $hr-margin: rem-calc(20);
+$hr-border-color: $light-gray;
 
 // We use these to style lists
 // $list-font-family: $paragraph-font-family;

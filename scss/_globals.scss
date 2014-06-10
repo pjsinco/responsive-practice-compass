@@ -1,9 +1,12 @@
-#main {
-  background: aliceblue;
+$light-gray: #ccc;
+
+#page {
+  border-left: 1px dashed $light-gray; 
+  border-right: 1px dashed $light-gray; 
 }
 
 .test {
-  background: darkorange;
+  background: aliceblue;
 }
 
 header {
