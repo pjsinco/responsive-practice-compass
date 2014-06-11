@@ -1,7 +1,10 @@
 
 #page {
   border-left: 1px dashed $light-gray; 
+  border-bottom: 1px dashed $light-gray;
   border-right: 1px dashed $light-gray; 
+  padding-bottom: rem-calc(10px);
+  margin-bottom: rem-calc(10px);
 }
 
 .test {
@@ -13,11 +16,23 @@ header {
 
 }
 
+footer {
+  a {
+    color: $medium-gray;
+    font-size: rem-calc(11px);
+
+  }
+
+  .footer-info ul {
+    float: right;
+  }
+}
+
 figure.title-image {
   margin: 0;
   
   & figcaption.title-image-cap {
-    color: $secondary-color;
+    color: $medium-gray;
     font-size: rem-calc(12px);
     line-height: rem-calc(16px);
     margin-top: rem-calc(4px);
@@ -48,6 +63,15 @@ figure.title-image {
     color: $primary-color;
   }
 }
+
+a.twitter-logo {
+  @include replace-text-with-dimensions('twitter.png', 23, 23);
+}
+
+a.rss-logo {
+  @include replace-text-with-dimensions('rss.gif', 23, 23);
+}
+
 /*.site-title {*/
   /*@include replace-text('../images/red-flag-cut.png');*/
 /*}*/

@@ -8823,56 +8823,93 @@ th.hide-for-touch {
 /* line 2, ../scss/_globals.scss */
 #page {
   border-left: 1px dashed #cccccc;
+  border-bottom: 1px dashed #cccccc;
   border-right: 1px dashed #cccccc;
+  padding-bottom: 0.71429rem;
+  margin-bottom: 0.71429rem;
 }
 
-/* line 7, ../scss/_globals.scss */
+/* line 10, ../scss/_globals.scss */
 .test {
   background: magenta;
 }
 
-/* line 11, ../scss/_globals.scss */
+/* line 14, ../scss/_globals.scss */
 header {
   position: relative;
 }
 
-/* line 16, ../scss/_globals.scss */
+/* line 20, ../scss/_globals.scss */
+footer a {
+  color: #999999;
+  font-size: 0.78571rem;
+}
+/* line 26, ../scss/_globals.scss */
+footer .footer-info ul {
+  float: right;
+}
+
+/* line 31, ../scss/_globals.scss */
 figure.title-image {
   margin: 0;
 }
-/* line 19, ../scss/_globals.scss */
+/* line 34, ../scss/_globals.scss */
 figure.title-image figcaption.title-image-cap {
-  color: #65554a;
+  color: #999999;
   font-size: 0.85714rem;
   line-height: 1.14286rem;
   margin-top: 0.28571rem;
 }
 
-/* line 28, ../scss/_globals.scss */
+/* line 43, ../scss/_globals.scss */
 .searchform {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 @media only screen and (max-width: 30em) {
-  /* line 28, ../scss/_globals.scss */
+  /* line 43, ../scss/_globals.scss */
   .searchform {
     position: static;
     margin-top: .8rem;
   }
 }
 
-/* line 39, ../scss/_globals.scss */
+/* line 54, ../scss/_globals.scss */
 .ads-skyscraper {
   /*img {*/
   /*max-width: 100%; */
   /*}*/
 }
 
-/* line 46, ../scss/_globals.scss */
+/* line 61, ../scss/_globals.scss */
 .date p {
   float: right;
   color: #990000;
+}
+
+/* line 67, ../scss/_globals.scss */
+a.twitter-logo {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('/images/twitter.png?1402344112');
+  background-repeat: no-repeat;
+  background-position: 23 23;
+  width: 23px;
+  height: 23px;
+}
+
+/* line 71, ../scss/_globals.scss */
+a.rss-logo {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('/images/rss.gif?1402344112');
+  background-repeat: no-repeat;
+  background-position: 23 23;
+  width: 23px;
+  height: 23px;
 }
 
 /*.site-title {*/
