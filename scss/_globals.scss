@@ -1,7 +1,11 @@
 #page {
-  border-left: $dashed-line; 
-  border-bottom: $dashed-line;
-  border-right: $dashed-line; 
+  
+  @media #{$large-up} {
+    border-left: $dashed-line; 
+    border-right: $dashed-line; 
+    border-bottom: $dashed-line;
+  }
+
   padding-bottom: rem-calc(10px);
   margin-bottom: rem-calc(10px);
 
@@ -18,7 +22,10 @@
 }
 
 article {
-  border-right: $dashed-line;
+
+  @media #{$large-up} {
+    border-right: $dashed-line;
+  }
 
   p a {
     color: $info-color;
@@ -33,6 +40,8 @@ article {
 }
 
 footer {
+  margin-bottom: rem-calc(10px);
+
   a {
     color: $medium-gray;
     font-size: rem-calc(11px);
@@ -87,6 +96,14 @@ aside {
       text-transform: uppercase;
     }
   }
+
+  /*@media #{$small-only} {*/
+    /*background-color: $background-gray;*/
+
+    /*h3 {*/
+      /*font-size: rem-calc(15);*/
+    /*}*/
+  /*}*/
 }
 
 .searchform {
@@ -94,9 +111,13 @@ aside {
   bottom: rem-calc(-18px);
   right: 0;
 
+  @media #{$medium-only} {
+    
+  }
+
   @media #{$small-only} {
     position: static;
-    margin-top: .8rem;
+    margin-top: rem-calc(20px);
   }
 }
 
