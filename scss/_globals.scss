@@ -4,15 +4,17 @@
   border-right: $dashed-line; 
   padding-bottom: rem-calc(10px);
   margin-bottom: rem-calc(10px);
+
+  header.site-header {
+    position: relative;
+    margin-top: rem-calc(10px);
+    margin-bottom: rem-calc(10px);
+  }
+
 }
 
 .test {
   background: $test;
-}
-
-header {
-  position: relative;
-
 }
 
 article {
@@ -89,7 +91,7 @@ aside {
 
 .searchform {
   position: absolute;     
-  bottom: 0;
+  bottom: rem-calc(-18px);
   right: 0;
 
   @media #{$small-only} {
@@ -142,7 +144,13 @@ a.rss-logo {
   @include replace-text-with-dimensions('rss.gif', 23, 23);
 }
 
-/*.site-title {*/
-  /*@include replace-text('../images/red-flag-cut.png');*/
-/*}*/
 
+/**
+ * Foundation classes
+ *
+ */ 
+.postfix.button {
+
+  line-height: 2rem;
+
+}
