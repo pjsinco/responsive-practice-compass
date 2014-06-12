@@ -48,22 +48,36 @@ article {
 footer.site-footer {
   margin-bottom: rem-calc(10px);
 
-  
   a {
     color: $medium-gray;
     font-size: rem-calc(11px);
 
-    @media #{$small-only} {
-      &.logo {
-        position: absolute;
-        top: 4px;
+
+    &.aoa-logo {
+      display: inline-block;
+      @include replace-text-with-dimensions('aoa-logo.png', 49, 23);
+      position: absolute;
+      top: 4px;
+
+      @media #{$small-only} {
         left: 36px;
       }
+      @media #{$medium-only} {
+        left: 30px;
+      }
     }
+
+    &.twitter-logo {
+      @include replace-text-with-dimensions('twitter.png', 23, 23);
+    }
+
+    &.rss-logo {
+      @include replace-text-with-dimensions('rss.gif', 23, 23);
+    }
+    
   }
 
   .footer-info {
-
     padding-right: 0;
 
     ul {
@@ -180,13 +194,6 @@ ul.breadcrumbs {
   }
 }
 
-a.twitter-logo {
-  @include replace-text-with-dimensions('twitter.png', 23, 23);
-}
-
-a.rss-logo {
-  @include replace-text-with-dimensions('rss.gif', 23, 23);
-}
 
 
 /**
