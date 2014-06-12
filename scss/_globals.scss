@@ -1,6 +1,6 @@
 #page {
   
-  @media #{$xlarge-up} {
+  @media #{$large-up} {
     border-left: $dashed-line; 
     border-right: $dashed-line; 
     border-bottom: $dashed-line;
@@ -24,9 +24,12 @@
 article {
 
   @media #{$small-only} {
-    h1 {
+    h1  {
       font-size: rem-calc(21px);
     }     
+    h3 {
+      font-size: rem-calc(14px);
+    }
   }
 
   @media #{$large-up} {
@@ -63,7 +66,7 @@ footer.site-footer {
         left: 36px;
       }
       @media #{$medium-only} {
-        left: 30px;
+        left: 10px;
       }
     }
 
@@ -78,7 +81,7 @@ footer.site-footer {
   }
 
   .footer-info {
-    padding-right: 0;
+    /*padding-right: 0;*/
 
     ul {
       float: right;
@@ -188,9 +191,19 @@ ul.breadcrumbs {
 }
 
 .ads-skyscraper {
-  /*img {*/
-    /*max-width: 100%; */
-  /*}*/
+  border-left: 1px solid #ddd;
+
+  .skyscraper:not(:last-child) {
+    margin-bottom: rem-calc(10);
+    padding-bottom: rem-calc(10);
+    border-bottom: 1px solid #ddd;
+
+    /*&:last-child {*/
+      /*border-bottom: none;*/
+      /*margin-bottom: 0;*/
+      /*padding-bottom: 0;*/
+    /*}*/
+  }
 }
 
 .date {

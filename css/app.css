@@ -448,20 +448,20 @@ meta.foundation-mq-small {
 
 /* line 333, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:30.063em)/";
-  width: 30.063em;
-}
-
-/* line 338, ../bower_components/foundation/scss/foundation/components/_global.scss */
-meta.foundation-mq-large {
   font-family: "/only screen and (min-width:40.063em)/";
   width: 40.063em;
 }
 
-/* line 343, ../bower_components/foundation/scss/foundation/components/_global.scss */
-meta.foundation-mq-xlarge {
+/* line 338, ../bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-large {
   font-family: "/only screen and (min-width:64.063em)/";
   width: 64.063em;
+}
+
+/* line 343, ../bower_components/foundation/scss/foundation/components/_global.scss */
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em;
 }
 
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -1090,7 +1090,7 @@ select {
     float: right;
   }
 }
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .medium-push-0 {
     position: relative;
@@ -1749,7 +1749,7 @@ select {
     left: auto;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 64.063em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .large-push-0 {
     position: relative;
@@ -2720,7 +2720,7 @@ select {
     clear: both;
   }
 }
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 61, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .medium-block-grid-1 > li {
     width: 100%;
@@ -2889,7 +2889,7 @@ select {
     clear: both;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 64.063em) {
   /* line 61, ../bower_components/foundation/scss/foundation/components/_block-grid.scss */
   .large-block-grid-1 > li {
     width: 100%;
@@ -3339,7 +3339,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   background-color: #990000;
 }
 
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 216, ../bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block;
@@ -3677,7 +3677,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   display: block;
 }
 
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 144, ../bower_components/foundation/scss/foundation/components/_clearing.scss */
   .clearing-main-prev,
   .clearing-main-next {
@@ -4835,7 +4835,7 @@ label.error {
 }
 
 /* Styles for screens that are at least 768px; */
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 190, ../bower_components/foundation/scss/foundation/components/_joyride.scss */
   .joyride-tip-guide {
     width: 300px;
@@ -5318,7 +5318,7 @@ kbd {
   display: none;
 }
 
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 382, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
   .touch .orbit-container .orbit-prev,
   .touch .orbit-container .orbit-next {
@@ -5329,7 +5329,7 @@ kbd {
     display: block;
   }
 }
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 40em) {
   /* line 393, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
   .orbit-stack-on-small .orbit-slides-container {
     height: auto !important;
@@ -5725,13 +5725,13 @@ dialog, .reveal-modal {
   border: solid 1px #666666;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 40em) {
   /* line 164, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     min-height: 100vh;
   }
 }
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 164, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     left: 50%;
@@ -5751,14 +5751,14 @@ dialog > :first-child, .reveal-modal > :first-child {
 dialog > :last-child, .reveal-modal > :last-child {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 164, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     margin-left: -40%;
     width: 80%;
   }
 }
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 164, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     top: 7.14286rem;
@@ -5782,7 +5782,7 @@ dialog[open] {
   visibility: visible;
 }
 
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 184, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal {
     padding: 2.14286rem;
@@ -5808,35 +5808,35 @@ dialog[open] {
     margin-left: 0 !important;
   }
 }
-@media only screen and (min-width: 30.063em) and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
   /* line 192, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.tiny, .reveal-modal.tiny {
     margin-left: -15%;
     width: 30%;
   }
 }
-@media only screen and (min-width: 30.063em) and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
   /* line 193, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.small, .reveal-modal.small {
     margin-left: -20%;
     width: 40%;
   }
 }
-@media only screen and (min-width: 30.063em) and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
   /* line 194, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.medium, .reveal-modal.medium {
     margin-left: -30%;
     width: 60%;
   }
 }
-@media only screen and (min-width: 30.063em) and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
   /* line 195, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.large, .reveal-modal.large {
     margin-left: -35%;
     width: 70%;
   }
 }
-@media only screen and (min-width: 30.063em) and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
   /* line 196, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.xlarge, .reveal-modal.xlarge {
     margin-left: -47.5%;
@@ -5844,7 +5844,7 @@ dialog[open] {
   }
 }
 
-@media only screen and (min-width: 30.063em) and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
   /* line 200, ../bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog.full, .reveal-modal.full {
     margin-left: -50vw;
@@ -6383,7 +6383,7 @@ table tr td {
   text-align: justify !important;
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 40em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .small-only-text-left {
     text-align: left !important;
@@ -6425,7 +6425,7 @@ table tr td {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 30.063em) and (max-width: 40em) {
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-only-text-left {
     text-align: left !important;
@@ -6446,7 +6446,7 @@ table tr td {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .medium-text-left {
     text-align: left !important;
@@ -6467,7 +6467,7 @@ table tr td {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 40.063em) and (max-width: 48em) {
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .large-only-text-left {
     text-align: left !important;
@@ -6488,7 +6488,7 @@ table tr td {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 64.063em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .large-text-left {
     text-align: left !important;
@@ -6509,7 +6509,7 @@ table tr td {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 64.063em) and (max-width: 9999999999em) {
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .xlarge-only-text-left {
     text-align: left !important;
@@ -6530,7 +6530,7 @@ table tr td {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 90.063em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_type.scss */
   .xlarge-text-left {
     text-align: left !important;
@@ -6911,7 +6911,7 @@ blockquote p {
   padding: 0 0.07143rem;
 }
 
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 443, ../bower_components/foundation/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
@@ -7139,7 +7139,7 @@ blockquote p {
   padding: 0 0.92857rem;
 }
 
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 88, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
   .tabs.vertical {
     width: 20%;
@@ -7254,7 +7254,7 @@ blockquote p {
   font-weight: normal;
 }
 
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 108, ../bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip > .nub {
     border-color: transparent transparent #333333 transparent;
@@ -7289,8 +7289,8 @@ blockquote p {
 }
 /* line 103, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:30.063em)/";
-  width: 30.063em;
+  font-family: "/only screen and (min-width:40.063em)/";
+  width: 40.063em;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -7738,7 +7738,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 435, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: #333333;
@@ -8051,7 +8051,7 @@ meta.foundation-mq-topbar {
   height: 3.21429rem;
   top: 0;
 }
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 279, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .tab-bar-section {
     text-align: left;
@@ -8209,7 +8209,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 259, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .move-right .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8241,7 +8241,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 259, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .move-left .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8274,7 +8274,7 @@ ul.off-canvas-list li a:hover {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 1002;
 }
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 259, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
   .offcanvas-overlap .exit-offcanvas-menu:hover {
     background: rgba(255, 255, 255, 0.05);
@@ -8354,7 +8354,7 @@ ul.off-canvas-list li a:hover {
   }
 }
 /* medium displays */
-@media only screen and (min-width: 30.063em) {
+@media only screen and (min-width: 40.063em) {
   /* line 244, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
     display: inherit !important;
@@ -8409,7 +8409,7 @@ ul.off-canvas-list li a:hover {
   }
 }
 /* large displays */
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 64.063em) {
   /* line 244, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .show-for-large-only, .show-for-large-up, .show-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
     display: inherit !important;
@@ -8464,7 +8464,7 @@ ul.off-canvas-list li a:hover {
   }
 }
 /* xlarge displays */
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 90.063em) {
   /* line 244, ../bower_components/foundation/scss/foundation/components/_visibility.scss */
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .hide-for-medium-only, .show-for-medium-up, .hide-for-medium, .hide-for-medium-down, .hide-for-large-only, .show-for-large-up, .hide-for-large, .hide-for-large-down, .show-for-xlarge-only, .show-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
     display: inherit !important;
@@ -8845,41 +8845,45 @@ th.hide-for-touch {
   background: magenta;
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 40em) {
   /* line 27, ../scss/_globals.scss */
   article h1 {
     font-size: 1.5rem;
   }
+  /* line 30, ../scss/_globals.scss */
+  article h3 {
+    font-size: 1rem;
+  }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 64.063em) {
   /* line 24, ../scss/_globals.scss */
   article {
     border-right: 1px dashed #cccccc;
   }
 }
-/* line 36, ../scss/_globals.scss */
+/* line 39, ../scss/_globals.scss */
 article p a {
   color: #4568c0;
   /*$anchor-text-decoration-hover: none;*/
   /*$anchor-font-color: $primary-color;*/
   /*$anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);*/
 }
-/* line 41, ../scss/_globals.scss */
+/* line 44, ../scss/_globals.scss */
 article p a:hover {
   color: #4568c0;
   text-decoration: underline;
 }
 
-/* line 48, ../scss/_globals.scss */
+/* line 51, ../scss/_globals.scss */
 footer.site-footer {
   margin-bottom: 0.71429rem;
 }
-/* line 51, ../scss/_globals.scss */
+/* line 54, ../scss/_globals.scss */
 footer.site-footer a {
   color: #999999;
   font-size: 0.78571rem;
 }
-/* line 56, ../scss/_globals.scss */
+/* line 59, ../scss/_globals.scss */
 footer.site-footer a.aoa-logo {
   display: inline-block;
   text-indent: -119988px;
@@ -8893,19 +8897,19 @@ footer.site-footer a.aoa-logo {
   position: absolute;
   top: 4px;
 }
-@media only screen and (max-width: 30em) {
-  /* line 56, ../scss/_globals.scss */
+@media only screen and (max-width: 40em) {
+  /* line 59, ../scss/_globals.scss */
   footer.site-footer a.aoa-logo {
     left: 36px;
   }
 }
-@media only screen and (min-width: 30.063em) and (max-width: 40em) {
-  /* line 56, ../scss/_globals.scss */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 59, ../scss/_globals.scss */
   footer.site-footer a.aoa-logo {
-    left: 30px;
+    left: 10px;
   }
 }
-/* line 70, ../scss/_globals.scss */
+/* line 73, ../scss/_globals.scss */
 footer.site-footer a.twitter-logo {
   text-indent: -119988px;
   overflow: hidden;
@@ -8916,7 +8920,7 @@ footer.site-footer a.twitter-logo {
   width: 23px;
   height: 23px;
 }
-/* line 74, ../scss/_globals.scss */
+/* line 77, ../scss/_globals.scss */
 footer.site-footer a.rss-logo {
   text-indent: -119988px;
   overflow: hidden;
@@ -8927,24 +8931,24 @@ footer.site-footer a.rss-logo {
   width: 23px;
   height: 23px;
 }
-/* line 80, ../scss/_globals.scss */
-footer.site-footer .footer-info {
-  padding-right: 0;
-}
 /* line 83, ../scss/_globals.scss */
+footer.site-footer .footer-info {
+  /*padding-right: 0;*/
+}
+/* line 86, ../scss/_globals.scss */
 footer.site-footer .footer-info ul {
   float: right;
 }
-/* line 87, ../scss/_globals.scss */
+/* line 90, ../scss/_globals.scss */
 footer.site-footer .footer-info li:last-child {
   margin-left: .5rem;
 }
 
-/* line 93, ../scss/_globals.scss */
+/* line 96, ../scss/_globals.scss */
 figure.title-image {
   margin: 0;
 }
-/* line 96, ../scss/_globals.scss */
+/* line 99, ../scss/_globals.scss */
 figure.title-image figcaption.title-image-cap {
   color: #999999;
   font-size: 0.85714rem;
@@ -8952,26 +8956,26 @@ figure.title-image figcaption.title-image-cap {
   margin-top: 0.42857rem;
 }
 
-/* line 107, ../scss/_globals.scss */
+/* line 110, ../scss/_globals.scss */
 aside a {
   color: #282828;
 }
-/* line 111, ../scss/_globals.scss */
+/* line 114, ../scss/_globals.scss */
 aside.widget {
   padding: 0 0.71429rem 0.71429rem 0.71429rem;
   border-bottom: 1px dashed #cccccc;
 }
-/* line 116, ../scss/_globals.scss */
+/* line 119, ../scss/_globals.scss */
 aside.widget:nth-child(n + 2) {
   padding-top: 0.71429rem;
 }
-/* line 120, ../scss/_globals.scss */
+/* line 123, ../scss/_globals.scss */
 aside.widget ol, aside.widget ul {
   list-style-position: inside;
   font-size: 0.85714rem;
   margin: 0;
 }
-/* line 127, ../scss/_globals.scss */
+/* line 130, ../scss/_globals.scss */
 aside.widget h3 {
   color: #990000;
   border-bottom: 1px solid #990000;
@@ -8981,39 +8985,39 @@ aside.widget h3 {
   text-transform: uppercase;
 }
 
-/* line 139, ../scss/_globals.scss */
+/* line 142, ../scss/_globals.scss */
 .searchform {
   position: absolute;
   bottom: -1.28571rem;
   right: 0;
 }
-@media only screen and (max-width: 30em) {
-  /* line 139, ../scss/_globals.scss */
+@media only screen and (max-width: 40em) {
+  /* line 142, ../scss/_globals.scss */
   .searchform {
     position: static;
     margin-top: 1.42857rem;
   }
 }
 
-/* line 154, ../scss/_globals.scss */
+/* line 157, ../scss/_globals.scss */
 ul.breadcrumbs {
   margin-bottom: 0.42857rem;
 }
 
-/* line 158, ../scss/_globals.scss */
+/* line 161, ../scss/_globals.scss */
 .entry-meta {
   color: #999999;
 }
-/* line 161, ../scss/_globals.scss */
+/* line 164, ../scss/_globals.scss */
 .entry-meta ul {
   font-size: 0.85714rem;
 }
-/* line 165, ../scss/_globals.scss */
+/* line 168, ../scss/_globals.scss */
 .entry-meta a {
   color: #999999;
 }
 
-/* line 170, ../scss/_globals.scss */
+/* line 173, ../scss/_globals.scss */
 .post-author {
   margin-top: 1.42857rem;
   margin-bottom: 1.14286rem;
@@ -9021,24 +9025,33 @@ ul.breadcrumbs {
   font-size: 0.92857rem;
 }
 
-/* line 179, ../scss/_globals.scss */
+/* line 182, ../scss/_globals.scss */
 .ads-leaderboard img {
   margin-bottom: 0.71429rem;
 }
-/* line 183, ../scss/_globals.scss */
+/* line 186, ../scss/_globals.scss */
 .ads-leaderboard hr {
   margin-left: 0.92857rem;
   margin-right: 0.92857rem;
 }
 
-/* line 190, ../scss/_globals.scss */
+/* line 193, ../scss/_globals.scss */
 .ads-skyscraper {
-  /*img {*/
-  /*max-width: 100%; */
+  border-left: 1px solid #ddd;
+}
+/* line 196, ../scss/_globals.scss */
+.ads-skyscraper .skyscraper:not(:last-child) {
+  margin-bottom: 0.71429rem;
+  padding-bottom: 0.71429rem;
+  border-bottom: 1px solid #ddd;
+  /*&:last-child {*/
+  /*border-bottom: none;*/
+  /*margin-bottom: 0;*/
+  /*padding-bottom: 0;*/
   /*}*/
 }
 
-/* line 197, ../scss/_globals.scss */
+/* line 210, ../scss/_globals.scss */
 .date p {
   float: right;
   color: #990000;
@@ -9048,7 +9061,7 @@ ul.breadcrumbs {
  * Foundation classes
  *
  */
-/* line 209, ../scss/_globals.scss */
+/* line 222, ../scss/_globals.scss */
 .postfix.button {
   line-height: 2rem;
 }
