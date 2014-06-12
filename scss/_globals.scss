@@ -1,6 +1,6 @@
 #page {
   
-  @media #{$large-up} {
+  @media #{$xlarge-up} {
     border-left: $dashed-line; 
     border-right: $dashed-line; 
     border-bottom: $dashed-line;
@@ -23,6 +23,12 @@
 
 article {
 
+  @media #{$small-only} {
+    h1 {
+      font-size: rem-calc(21px);
+    }     
+  }
+
   @media #{$large-up} {
     border-right: $dashed-line;
   }
@@ -39,17 +45,34 @@ article {
   }
 }
 
-footer {
+footer.site-footer {
   margin-bottom: rem-calc(10px);
 
+  
   a {
     color: $medium-gray;
     font-size: rem-calc(11px);
 
+    @media #{$small-only} {
+      &.logo {
+        position: absolute;
+        top: 4px;
+        left: 36px;
+      }
+    }
   }
 
-  .footer-info ul {
-    float: right;
+  .footer-info {
+
+    padding-right: 0;
+
+    ul {
+      float: right;
+    }
+    
+    li:last-child {
+      margin-left: .5rem; 
+    }
   }
 }
 
@@ -122,7 +145,7 @@ aside {
 }
 
 ul.breadcrumbs {
-  margin-bottom: rem-calc(4px);
+  margin-bottom: rem-calc(6px);
 }
 
 .entry-meta {
