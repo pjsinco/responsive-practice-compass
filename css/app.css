@@ -8952,15 +8952,6 @@ figure.title-image figcaption.title-image-cap {
   margin-top: 0.42857rem;
 }
 
-/* line 105, ../scss/_globals.scss */
-aside {
-  /*@media only screen and (max-width: 30em) {*/
-  /*background-color: $background-gray;*/
-  /*h3 {*/
-  /*font-size: rem-calc(15);*/
-  /*}*/
-  /*}*/
-}
 /* line 107, ../scss/_globals.scss */
 aside a {
   color: #282828;
@@ -8990,39 +8981,39 @@ aside.widget h3 {
   text-transform: uppercase;
 }
 
-/* line 146, ../scss/_globals.scss */
+/* line 139, ../scss/_globals.scss */
 .searchform {
   position: absolute;
   bottom: -1.28571rem;
   right: 0;
 }
 @media only screen and (max-width: 30em) {
-  /* line 146, ../scss/_globals.scss */
+  /* line 139, ../scss/_globals.scss */
   .searchform {
     position: static;
     margin-top: 1.42857rem;
   }
 }
 
-/* line 161, ../scss/_globals.scss */
+/* line 154, ../scss/_globals.scss */
 ul.breadcrumbs {
   margin-bottom: 0.42857rem;
 }
 
-/* line 165, ../scss/_globals.scss */
+/* line 158, ../scss/_globals.scss */
 .entry-meta {
   color: #999999;
 }
-/* line 168, ../scss/_globals.scss */
+/* line 161, ../scss/_globals.scss */
 .entry-meta ul {
   font-size: 0.85714rem;
 }
-/* line 172, ../scss/_globals.scss */
+/* line 165, ../scss/_globals.scss */
 .entry-meta a {
   color: #999999;
 }
 
-/* line 177, ../scss/_globals.scss */
+/* line 170, ../scss/_globals.scss */
 .post-author {
   margin-top: 1.42857rem;
   margin-bottom: 1.14286rem;
@@ -9030,14 +9021,24 @@ ul.breadcrumbs {
   font-size: 0.92857rem;
 }
 
-/* line 184, ../scss/_globals.scss */
+/* line 179, ../scss/_globals.scss */
+.ads-leaderboard img {
+  margin-bottom: 0.71429rem;
+}
+/* line 183, ../scss/_globals.scss */
+.ads-leaderboard hr {
+  margin-left: 0.92857rem;
+  margin-right: 0.92857rem;
+}
+
+/* line 190, ../scss/_globals.scss */
 .ads-skyscraper {
   /*img {*/
   /*max-width: 100%; */
   /*}*/
 }
 
-/* line 191, ../scss/_globals.scss */
+/* line 197, ../scss/_globals.scss */
 .date p {
   float: right;
   color: #990000;
@@ -9047,7 +9048,7 @@ ul.breadcrumbs {
  * Foundation classes
  *
  */
-/* line 203, ../scss/_globals.scss */
+/* line 209, ../scss/_globals.scss */
 .postfix.button {
   line-height: 2rem;
 }

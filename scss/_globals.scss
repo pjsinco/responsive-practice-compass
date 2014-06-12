@@ -134,13 +134,6 @@ aside {
     }
   }
 
-  /*@media #{$small-only} {*/
-    /*background-color: $background-gray;*/
-
-    /*h3 {*/
-      /*font-size: rem-calc(15);*/
-    /*}*/
-  /*}*/
 }
 
 .searchform {
@@ -179,6 +172,19 @@ ul.breadcrumbs {
   margin-bottom: rem-calc(16px);
   text-transform: uppercase;
   font-size: rem-calc(13px);
+}
+
+.ads-leaderboard {
+
+  img {
+    margin-bottom: rem-calc(10px);
+  }
+
+  hr {
+    margin-left: $column-gutter / 2;
+    margin-right: $column-gutter / 2;
+  }
+
 }
 
 .ads-skyscraper {
