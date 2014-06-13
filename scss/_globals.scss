@@ -18,8 +18,9 @@
 }
 
 .test {
-  background: $test;
+  /*background: $test;*/
 }
+
 
 article {
 
@@ -84,11 +85,11 @@ footer.site-footer {
     /*padding-right: 0;*/
 
     ul {
-      float: right;
+      /*float: right;*/
     }
     
     li:last-child {
-      margin-left: .5rem; 
+      /*margin-left: .5rem; */
     }
   }
 }
@@ -214,7 +215,6 @@ ul.breadcrumbs {
 }
 
 
-
 /**
  * Foundation classes
  *
@@ -223,4 +223,20 @@ ul.breadcrumbs {
 
   line-height: 2rem;
 
+}
+
+/**
+ * TESTING
+ *
+ */
+.test {
+  & a.twitter-logo {
+    @include replace-text-with-dimensions('twitter.png', 23, 23);
+  }
+  & a.rss-logo {
+    @include replace-text-with-dimensions('rss.gif', 23, 23);
+  }
+  ul {
+    float: right; 
+  }
 }
