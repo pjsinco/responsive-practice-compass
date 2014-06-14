@@ -52,61 +52,31 @@ article {
 footer.site-footer {
   margin-bottom: rem-calc(10px);
 
-  @media #{$small-only} {
-    /*margin-left: rem-calc(20px);*/
-    /*margin-right: rem-calc(20px);*/
+  .footer-contact li {
+    margin-left: rem-calc(16px);
   }
-
-  @media #{$medium-only} {
-    /*margin-left: rem-calc(12px);*/
-    /*margin-right: rem-calc(12px);*/
-  }
-
-  @media #{$large-up} {
-    /*margin-left: rem-calc(20px);*/
-    /*margin-right: rem-calc(20px);*/
-  }
-
 
   a {
     color: $medium-gray;
     font-size: rem-calc(11px);
 
-
     &.aoa-logo {
-      display: inline-block;
       @include replace-text-with-dimensions('aoa-logo.png', 49, 23);
+      display: inline-block;
       position: relative;
-      top: 4px;
-
-      @media #{$small-only} {
-        left: rem-calc(10px);
-      }
-      @media #{$medium-only} {
-        /*left: 10px;*/
-      }
+      top: rem-calc(6px);
     }
 
     &.twitter-logo {
       @include replace-text-with-dimensions('twitter.png', 23, 23);
+      display: inline-block;
     }
 
     &.rss-logo {
       @include replace-text-with-dimensions('rss.gif', 23, 23);
+      display: inline-block;
     }
     
-  }
-
-  .footer-info {
-    /*padding-right: 0;*/
-
-    ul {
-      /*float: right;*/
-    }
-    
-    li:last-child {
-      /*margin-left: 0.5rem; */
-    }
   }
 }
 
